@@ -1,0 +1,113 @@
+body
+{
+    font-family: Tahoma ;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#Menu_Top{
+    background: #141414;
+    height: 40px;
+}
+#Banner
+{
+    height:auto;
+    width: 1000px;
+}
+#main #left {
+    width: 700px;
+    float: left;
+    min-height: 400px;
+    }
+#main #right{
+    width: 300px;
+    float: left;
+    min-height: 400px;
+
+}
+#footer
+{
+    background: aqua ;
+    width:1000px;
+    text-align: center;
+    height: 60px;
+    color: #000;
+    line-height: 60px;
+    clear: left;
+}
+#Menu_Top ul
+{
+    margin: 0px ;
+    padding:0px ;
+}
+#Menu_Top ul li{
+    list-style: none;
+    float: left;
+}
+#Menu_Top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0px 20px 0px 20px;
+    border-right: #cccccc solid 1px;
+}
+#Menu_Top ul li a.Active{
+    background: dodgerblue;
+}
+#main #left ul
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+#main #left ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+    width: 700px;
+}
+#main #left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left ul li h2{
+    font-size: 16px;
+    margin-top: 0px;
+}
+#main{
+    margin-top: 10px;
+}
+#main #right .menu_right ul {
+    margin: -15px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+#main #right .menu_right ul li{
+    list-style: none;
+}
+#main #right .menu_right h3{
+    background: darkslategrey url(../images/iconmenu.png) no-repeat 3px ;
+    height: 40px;
+    margin-top: 0px;
+    text-indent: 40px;
+    font-size: 14px;
+    line-height:40px;
+    color: #fff;
+}
+#main #right .menu_right ul li a{
+    background: url("../images/iconcheck.png") no-repeat 4px;
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 50px;
+}
+#main #right .menu_right ul li a:hover{
+    color: red;
+}
+
